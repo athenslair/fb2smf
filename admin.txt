@@ -16,7 +16,7 @@ $password = "";
 4) Τρεχεις το nicknames.php οπου σου ζηταει Group_id και Access_token. Tο Group_id ειναι 249565538470710. 
 
 5) Για το Access_token πας https://developers.facebook.com/tools/explorer επιλεγεις version v2.0 και πατας Get Token -> Get Access Token
-οπου επιλεγεις για permissions τα user_groups και user_managed_groups
+οπου επιλεγεις για permissions τα user_groups και user_managed_groups (το FB account που χρησιμοποιείς πρεπει να ειναι μελος του group)
 
 6) Εκτελοντας το βημα 4) στη βαση δεδομενων στο table NICKNAMES εχουν αποθηκευτει ολα τα ονοματα των χρηστων του group (real names).
 Πηγαινεις phpmyadmin για να κανεις edit το table ΝICKNAMES για να γραψεις για καθε realname το αντιστoιχο nickname του forum.
