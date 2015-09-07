@@ -36,8 +36,14 @@ $database_forum="smf";
 
 H μεταβλητη $database_forum παιρνει ως τιμη το ονομα της βαση δεδομενων του forum.(To ονομα της βαση δεδομενων καθοριστηκε κατα το installation του forum)
 
-8) Τρεχεις το index_hashtags.php οπου σου ζηταει Group_id και Access_token. (κοιτα βημα 4-5)
+8) Ανοιγεις ως admin το forum σε ενα browser και πας Admin->Features and Options->Forum->Boards->Modify Boards->Add Board οπου γραφεις τα στοιχεια του νεου board που θα ειναι μεσα εκει τα facebook posts (π.χ το ονομαζεις Facebook Group).
 
-9) Τρεχεις το custom.php
+9) Πηγαινεις phpmyadmin και επιλεγεις τη βαση δεδομενων του forum οπως στο βημα 7) και ανοιγεις το table boards. Βρισκεις ποιο ειναι το id_board του board που προσθεσες στο βημα 8).
 
-10) done
+10) Ανοιγεις με ενα editor το custom.php και στις γραμμες 173,193 αντικαθιστας το 2 με το νουμερο που βρηκες απο το βημα 9). 
+
+11) Τρεχεις το index_hashtags.php οπου σου ζηταει Group_id και Access_token. (κοιτα βημα 4-5)
+
+12) Τρεχεις το custom.php
+
+13) done
